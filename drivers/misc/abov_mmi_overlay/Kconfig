@@ -1,0 +1,10 @@
+config ABOV_MMI_OVERLAY
+	tristate "ABOV MMI OVERLAY driver"
+	help
+	  Say Y here if you have ABOV MMI OVERLAY
+	  defined in your system.
+
+	  If unsure, say N.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called abov_sar_mmi_overlay.
